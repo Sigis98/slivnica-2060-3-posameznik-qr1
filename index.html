@@ -1,74 +1,64 @@
-<!doctype html><html lang="sl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Posameznik QR 1 – Prazna skodelica</title>
+<!doctype html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Posameznik QR 1 – Prazna skodelica</title>
 <style>
-*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}html,body{margin:0;min-height:100%;background:#020617;color:white;font-family:Calibri,"Segoe UI",Arial,sans-serif;overflow:hidden}body{min-height:100svh}
-.app{min-height:100svh;width:100vw;display:flex;justify-content:center;padding:max(14px,env(safe-area-inset-top)) 14px max(14px,env(safe-area-inset-bottom));background:#020617}.phone{width:min(430px,100%);min-height:calc(100svh - 28px);display:flex;flex-direction:column;gap:12px}
-.progress{display:flex;gap:8px;padding:5px 3px 0}.progress button{height:6px;flex:1;border:0;border-radius:999px;background:rgba(255,255,255,.20);padding:0;overflow:hidden}.progress span{display:block;height:100%;width:0%;background:white;border-radius:999px;transition:width .25s ease}
-.stage{position:relative;flex:1;min-height:0;overflow:hidden;border-radius:34px;box-shadow:0 24px 90px rgba(0,0,0,.58);isolation:isolate;touch-action:pan-y}.slide{position:absolute;inset:0;opacity:0;transform:translateX(70px);transition:opacity .28s ease,transform .28s ease;pointer-events:none;overflow:hidden;background:#020617}.slide.active{opacity:1;transform:translateX(0);pointer-events:auto}.slide.left{transform:translateX(-70px)}
-.bg{position:absolute;inset:0;background:var(--gradient);overflow:hidden}.bg:before{content:"";position:absolute;inset:-20%;background:radial-gradient(circle at 50% 8%,rgba(255,255,255,.18),transparent 20%),radial-gradient(circle at 20% 90%,rgba(103,232,249,.18),transparent 35%),radial-gradient(circle at 85% 85%,rgba(253,230,138,.14),transparent 32%);filter:blur(18px);animation:glow 7s infinite ease-in-out}.bg:after{content:"";position:absolute;left:50%;bottom:-16%;width:120%;height:46%;transform:translateX(-50%);border-radius:55% 55% 0 0;background:rgba(103,232,249,.10);filter:blur(2px)}.spark{position:absolute;width:4px;height:4px;border-radius:999px;background:rgba(255,255,255,.72);box-shadow:0 0 14px rgba(191,219,254,.8);animation:spark 4s infinite ease-in-out}
-.top{position:relative;z-index:8;display:flex;justify-content:space-between;gap:10px;padding:26px 22px 0;align-items:center}.top span{border-radius:999px;background:rgba(255,255,255,.16);backdrop-filter:blur(12px);padding:10px 13px;font-size:12px;line-height:1;font-weight:900;letter-spacing:.13em;text-transform:uppercase}.top span:first-child{max-width:78%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.content{position:relative;z-index:6;height:calc(100% - 68px);display:flex;align-items:center;padding:18px 22px 34px}.panel{width:100%;border:1px solid rgba(255,255,255,.16);background:rgba(2,6,23,.50);backdrop-filter:blur(14px);border-radius:32px;box-shadow:0 24px 70px rgba(0,0,0,.35);padding:22px;text-align:center}.visual{height:210px;margin:-8px auto 10px;display:grid;place-items:center;opacity:.95}.visual.small{height:170px}.visual-svg{width:100%;height:100%;overflow:visible}
-h1{margin:0;font-size:clamp(34px,10vw,48px);line-height:.98;letter-spacing:-.055em;font-weight:950}.subtitle{margin:14px 0 0;color:rgba(255,255,255,.82);font-size:20px;line-height:1.2;font-weight:760}.line{width:112px;height:6px;border-radius:999px;background:rgba(191,219,254,.85);margin:22px auto}.body,.task{margin:0;font-size:clamp(19px,5.2vw,23px);line-height:1.26;font-weight:680;color:rgba(255,255,255,.93)}.task{margin-top:18px;padding:16px;border-radius:24px;background:rgba(255,255,255,.10);font-weight:820;text-align:left}
-.nav{position:absolute;z-index:20;top:50%;transform:translateY(-50%);width:42px;height:42px;border:0;border-radius:999px;background:rgba(0,0,0,.25);backdrop-filter:blur(10px);color:white;font-size:28px;line-height:1}.nav:disabled{opacity:.25}.prev{left:9px}.next{right:9px}.footer{display:flex;justify-content:space-between;color:rgba(255,255,255,.68);font-size:14px;padding:0 4px}
-.r0{animation:ring 3.2s infinite ease-in-out}.r1{animation:ring 3.2s .2s infinite ease-in-out}.r2{animation:ring 3.2s .4s infinite ease-in-out}.r3{animation:ring 3.2s .6s infinite ease-in-out}.r4{animation:ring 3.2s .8s infinite ease-in-out}
-@keyframes glow{0%,100%{opacity:.72;transform:scale(1)}50%{opacity:1;transform:scale(1.05)}}@keyframes spark{0%,100%{opacity:.12;transform:translateY(0) scale(.8)}50%{opacity:.85;transform:translateY(-12px) scale(1.2)}}@keyframes ring{0%,100%{transform-origin:180px 160px;transform:scale(.97);opacity:.65}50%{transform:scale(1.05);opacity:1}}@media(max-height:720px){.visual{height:150px}.panel{padding:18px}h1{font-size:32px}.body,.task{font-size:18px}.subtitle{font-size:18px}}
-</style></head><body><div class="app"><main class="phone"><div class="progress"><button aria-label="Slajd 1"><span></span></button><button aria-label="Slajd 2"><span></span></button></div><section class="stage">
-        <article class="slide active"><div class="bg" style="--gradient:linear-gradient(to bottom, #0f172a, #334155, #1e293b)"></div><span class="spark" style="left:0%; top:0%; animation-delay:0.0s;"></span>
-<span class="spark" style="left:37%; top:23%; animation-delay:0.4s;"></span>
-<span class="spark" style="left:74%; top:46%; animation-delay:0.8s;"></span>
-<span class="spark" style="left:11%; top:69%; animation-delay:1.2000000000000002s;"></span>
-<span class="spark" style="left:48%; top:4%; animation-delay:1.6s;"></span>
-<span class="spark" style="left:85%; top:27%; animation-delay:2.0s;"></span>
-<span class="spark" style="left:22%; top:50%; animation-delay:2.4000000000000004s;"></span>
-<span class="spark" style="left:59%; top:73%; animation-delay:2.8000000000000003s;"></span>
-<span class="spark" style="left:96%; top:8%; animation-delay:0.0s;"></span>
-<span class="spark" style="left:33%; top:31%; animation-delay:0.4s;"></span>
-<span class="spark" style="left:70%; top:54%; animation-delay:0.8s;"></span>
-<span class="spark" style="left:7%; top:77%; animation-delay:1.2000000000000002s;"></span>
-<span class="spark" style="left:44%; top:12%; animation-delay:1.6s;"></span>
-<span class="spark" style="left:81%; top:35%; animation-delay:2.0s;"></span>
-<span class="spark" style="left:18%; top:58%; animation-delay:2.4000000000000004s;"></span>
-<span class="spark" style="left:55%; top:81%; animation-delay:2.8000000000000003s;"></span>
-<span class="spark" style="left:92%; top:16%; animation-delay:0.0s;"></span>
-<span class="spark" style="left:29%; top:39%; animation-delay:0.4s;"></span>
-<span class="spark" style="left:66%; top:62%; animation-delay:0.8s;"></span>
-<span class="spark" style="left:3%; top:85%; animation-delay:1.2000000000000002s;"></span>
-<span class="spark" style="left:40%; top:20%; animation-delay:1.6s;"></span>
-<span class="spark" style="left:77%; top:43%; animation-delay:2.0s;"></span>
-<span class="spark" style="left:14%; top:66%; animation-delay:2.4000000000000004s;"></span>
-<span class="spark" style="left:51%; top:1%; animation-delay:2.8000000000000003s;"></span>
-          <div class="top"><span>Posameznik QR 1 – Prazna skodelica</span><span>1 / 2</span></div>
-          <div class="content"><div class="panel"><div class="visual"><svg class="visual-svg" viewBox="0 0 360 320"><path d="M115 105h140l-18 88c-4 20-20 34-40 34h-24c-20 0-36-14-40-34l-18-88Z" fill="rgba(255,255,255,.18)" stroke="rgba(255,255,255,.55)" stroke-width="4"/><path d="M252 128h24c18 0 24 28 6 40-10 7-23 7-34 2" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="4"/><ellipse cx="80" cy="245" rx="22" ry="14" fill="rgba(226,232,240,.35)"/><ellipse cx="122" cy="255" rx="26" ry="17" fill="rgba(226,232,240,.35)"/><path d="M70 270c70-18 150-18 220 0" stroke="rgba(255,255,255,.22)" stroke-width="5" fill="none"/></svg></div><h1>Postani prazen</h1><p class="subtitle">Preden greš naprej, najprej nekaj odloži.</p><div class="line"></div><p class="body">Dobrodošel na poti »Bodi voda«. Preden se podaš naprej, moraš najprej nekaj odložiti. Če je skodelica polna, vanjo ne moreš natočiti čaja. Če je um poln, ne more sprejeti novega.</p></div></div>
-        </article>
-        <article class="slide"><div class="bg" style="--gradient:linear-gradient(to bottom, #0f172a, #334155, #1e293b)"></div><span class="spark" style="left:0%; top:0%; animation-delay:0.0s;"></span>
-<span class="spark" style="left:37%; top:23%; animation-delay:0.4s;"></span>
-<span class="spark" style="left:74%; top:46%; animation-delay:0.8s;"></span>
-<span class="spark" style="left:11%; top:69%; animation-delay:1.2000000000000002s;"></span>
-<span class="spark" style="left:48%; top:4%; animation-delay:1.6s;"></span>
-<span class="spark" style="left:85%; top:27%; animation-delay:2.0s;"></span>
-<span class="spark" style="left:22%; top:50%; animation-delay:2.4000000000000004s;"></span>
-<span class="spark" style="left:59%; top:73%; animation-delay:2.8000000000000003s;"></span>
-<span class="spark" style="left:96%; top:8%; animation-delay:0.0s;"></span>
-<span class="spark" style="left:33%; top:31%; animation-delay:0.4s;"></span>
-<span class="spark" style="left:70%; top:54%; animation-delay:0.8s;"></span>
-<span class="spark" style="left:7%; top:77%; animation-delay:1.2000000000000002s;"></span>
-<span class="spark" style="left:44%; top:12%; animation-delay:1.6s;"></span>
-<span class="spark" style="left:81%; top:35%; animation-delay:2.0s;"></span>
-<span class="spark" style="left:18%; top:58%; animation-delay:2.4000000000000004s;"></span>
-<span class="spark" style="left:55%; top:81%; animation-delay:2.8000000000000003s;"></span>
-<span class="spark" style="left:92%; top:16%; animation-delay:0.0s;"></span>
-<span class="spark" style="left:29%; top:39%; animation-delay:0.4s;"></span>
-<span class="spark" style="left:66%; top:62%; animation-delay:0.8s;"></span>
-<span class="spark" style="left:3%; top:85%; animation-delay:1.2000000000000002s;"></span>
-<span class="spark" style="left:40%; top:20%; animation-delay:1.6s;"></span>
-<span class="spark" style="left:77%; top:43%; animation-delay:2.0s;"></span>
-<span class="spark" style="left:14%; top:66%; animation-delay:2.4000000000000004s;"></span>
-<span class="spark" style="left:51%; top:1%; animation-delay:2.8000000000000003s;"></span>
-          <div class="top"><span>NALOGA</span><span>2 / 2</span></div>
-          <div class="content"><div class="panel"><div class="visual small"><svg class="visual-svg" viewBox="0 0 360 320"><path d="M115 105h140l-18 88c-4 20-20 34-40 34h-24c-20 0-36-14-40-34l-18-88Z" fill="rgba(255,255,255,.18)" stroke="rgba(255,255,255,.55)" stroke-width="4"/><path d="M252 128h24c18 0 24 28 6 40-10 7-23 7-34 2" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="4"/><ellipse cx="80" cy="245" rx="22" ry="14" fill="rgba(226,232,240,.35)"/><ellipse cx="122" cy="255" rx="26" ry="17" fill="rgba(226,232,240,.35)"/><path d="M70 270c70-18 150-18 220 0" stroke="rgba(255,255,255,.22)" stroke-width="5" fill="none"/></svg></div><h1>Naloga</h1><div class="line"></div><p class="task">Poišči kamen. V roki ga drži kot simbol svojih prepričanj, ki jih nosiš s seboj. Na glas ali v sebi izreci: »Pripravljen sem se učiti.« Kamen položi na tla. Ko boš pripravljen, nadaljuj proti odprtemu prostoru z razgledom.</p></div></div>
-        </article><button class="nav prev">‹</button><button class="nav next">›</button></section><div class="footer"><span>Podrsaj levo/desno</span><span>2 slajda</span></div></main></div><script>
-        const slides=[...document.querySelectorAll('.slide')], fills=[...document.querySelectorAll('.progress span')], buttons=[...document.querySelectorAll('.progress button')];
-        const prev=document.querySelector('.prev'), next=document.querySelector('.next'); let i=0,startX=null;
-        function update(){slides.forEach((s,n)=>{s.classList.toggle('active',n===i);s.classList.toggle('left',n<i)});fills.forEach((f,n)=>f.style.width=n<=i?'100%':'0%');prev.disabled=i===0;next.disabled=i===slides.length-1}
-        buttons.forEach((b,n)=>b.addEventListener('click',()=>{i=n;update()})); prev.addEventListener('click',()=>{i=Math.max(0,i-1);update()}); next.addEventListener('click',()=>{i=Math.min(slides.length-1,i+1);update()});
-        const stage=document.querySelector('.stage'); stage.addEventListener('touchstart',e=>startX=e.touches[0].clientX,{passive:true}); stage.addEventListener('touchend',e=>{if(startX===null)return;const d=startX-e.changedTouches[0].clientX;if(Math.abs(d)>45){i=d>0?Math.min(slides.length-1,i+1):Math.max(0,i-1);update()}startX=null},{passive:true}); update();
-        </script></body></html>
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;min-height:100%;background:#020617;color:white;font-family:Calibri,"Segoe UI",Arial,sans-serif}
+html{overflow-y:auto;overflow-x:hidden;scrollbar-width:none;-ms-overflow-style:none}
+html::-webkit-scrollbar,body::-webkit-scrollbar{display:none}
+body{min-height:100dvh;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-3;background:radial-gradient(circle at 50% -8%,rgba(191,219,254,.20),transparent 34%),radial-gradient(circle at 10% 92%,rgba(16,185,129,.13),transparent 34%),radial-gradient(circle at 88% 88%,rgba(253,230,138,.12),transparent 28%),linear-gradient(to bottom,#020617,#07132a 55%,#06111f)}
+body:after{content:"";position:fixed;inset:auto 0 0 0;height:42dvh;z-index:-2;background:rgba(103,232,249,.08);border-radius:55% 55% 0 0;filter:blur(3px)}
+.app{width:100%;min-height:100dvh;display:flex;justify-content:center;padding:max(14px,env(safe-area-inset-top)) 14px max(18px,env(safe-area-inset-bottom))}
+.phone{width:min(430px,100%)}
+.progress{display:flex;gap:7px;padding:5px 3px 12px;position:sticky;top:0;z-index:20;background:linear-gradient(to bottom,#020617 0%,rgba(2,6,23,.86) 70%,transparent 100%)}
+.progress span{height:6px;flex:1;border-radius:999px;background:white}
+.card{position:relative;min-height:calc(100dvh - 86px);border-radius:34px;overflow:hidden;padding:18px;box-shadow:0 24px 90px rgba(0,0,0,.58);border:1px solid rgba(255,255,255,.08);background:var(--card-gradient,linear-gradient(to bottom,rgba(15,23,42,.88),rgba(2,6,23,.90)))}
+.card:before{content:"";position:absolute;inset:-20%;background:radial-gradient(circle at 50% 8%,rgba(255,255,255,.16),transparent 20%),radial-gradient(circle at 22% 84%,rgba(103,232,249,.16),transparent 34%),radial-gradient(circle at 86% 86%,rgba(253,230,138,.13),transparent 30%);filter:blur(18px);animation:glow 7s infinite ease-in-out}
+.card:after{content:"";position:absolute;left:50%;bottom:-15%;width:125%;height:45%;transform:translateX(-50%);border-radius:55% 55% 0 0;background:rgba(103,232,249,.10);filter:blur(2px)}
+.inner{position:relative;z-index:2}
+.top{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:14px}
+.pill{border-radius:999px;background:rgba(255,255,255,.16);backdrop-filter:blur(12px);padding:10px 13px;font-size:12px;line-height:1;font-weight:900;letter-spacing:.13em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pill:first-child{max-width:78%}
+.panel{position:relative;overflow:hidden;border:1px solid rgba(255,255,255,.16);background:rgba(2,6,23,.56);backdrop-filter:blur(14px);border-radius:32px;box-shadow:0 24px 70px rgba(0,0,0,.35);padding:18px;text-align:center}
+.visual{position:absolute;right:-30px;bottom:2px;width:185px;height:145px;opacity:.13;pointer-events:none}
+.visual svg{width:100%;height:100%;overflow:visible}
+h1{margin:0;font-size:clamp(28px,8.4vw,40px);line-height:.98;letter-spacing:-.055em;font-weight:950}
+.subtitle{margin:14px 0 0;color:rgba(255,255,255,.84);font-size:clamp(17px,4.7vw,20px);line-height:1.2;font-weight:760}
+.line{width:112px;height:6px;border-radius:999px;background:rgba(191,219,254,.85);margin:16px auto}
+.body,.task{margin:0;font-size:clamp(17px,4.8vw,21px);line-height:1.25;font-weight:700;color:rgba(255,255,255,.93)}
+.task{margin-top:16px;padding:14px;border-radius:24px;background:rgba(255,255,255,.10);font-weight:850;text-align:left}
+.footer{display:flex;justify-content:space-between;color:rgba(255,255,255,.68);font-size:14px;padding:10px 4px 0}
+@keyframes glow{0%,100%{opacity:.72;transform:scale(1)}50%{opacity:1;transform:scale(1.05)}}
+@media(max-height:760px){.card{padding:16px}.panel{padding:16px}.visual{width:150px;height:118px;opacity:.11}.line{margin:13px auto}h1{font-size:clamp(27px,8vw,36px)}.body,.task{font-size:clamp(16px,4.5vw,19px)}.subtitle{font-size:clamp(16px,4.5vw,18px)}}
+@media(min-width:700px){.app{align-items:flex-start}.phone{margin-top:14px}}
+</style>
+</head>
+<body>
+<div class="app">
+  <main class="phone">
+    <div class="progress"><span></span></div>
+    <section class="card" style="--card-gradient:linear-gradient(to bottom, rgba(15,23,42,.90), rgba(51,65,85,.82), rgba(30,41,59,.90))">
+      <div class="inner">
+        <div class="top">
+          <span class="pill">Posameznik QR 1 – Prazna skodelica</span>
+          <span class="pill">1 / 1</span>
+        </div>
+        <div class="panel">
+          <div class="visual"><svg viewBox="0 0 360 250"><path d="M115 55h140l-18 88c-4 20-20 34-40 34h-24c-20 0-36-14-40-34l-18-88Z" fill="rgba(255,255,255,.18)" stroke="rgba(255,255,255,.55)" stroke-width="4"/><path d="M252 78h24c18 0 24 28 6 40-10 7-23 7-34 2" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="4"/><ellipse cx="80" cy="205" rx="22" ry="14" fill="rgba(226,232,240,.42)"/><ellipse cx="122" cy="215" rx="26" ry="17" fill="rgba(226,232,240,.42)"/><path d="M70 230c70-18 150-18 220 0" stroke="rgba(255,255,255,.25)" stroke-width="5" fill="none"/></svg></div>
+          <h1>Postani prazen</h1>
+          <p class="subtitle">Preden greš naprej, najprej nekaj odloži.</p>
+          <div class="line"></div>
+          <p class="body">Dobrodošel na poti »Bodi voda«. Preden se podaš naprej, moraš najprej nekaj odložiti. Če je skodelica polna, vanjo ne moreš natočiti čaja. Če je um poln, ne more sprejeti novega.</p>
+          <p class="task">Poišči kamen. V roki ga drži kot simbol svojih prepričanj, ki jih nosiš s seboj. Na glas ali v sebi izreci: »Pripravljen sem se učiti.« Kamen položi na tla. Ko boš pripravljen, nadaljuj proti odprtemu prostoru z razgledom.</p>
+        </div>
+      </div>
+    </section>
+    <div class="footer"><span>Naloga za pot</span><span>1 slajd</span></div>
+  </main>
+</div>
+</body>
+</html>
